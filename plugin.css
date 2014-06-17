@@ -1,0 +1,22 @@
+
+/*
+ * jQuery UI partition 0.1
+ *
+ * Copyright 2011, AUTHORS.txt 
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * 
+ * 
+ */
+.ui-partitioner { position: relative; text-align: left; }
+.ui-partitioner .ui-partitioner-handle { position: absolute; z-index: 2; width: 5px; height: 108%; cursor: col-resize; border: 1px solid #CCCCCC; zoom: 1;}
+.ui-partitioner .ui-partitioner-range { position: absolute; z-index: 1; display: block; border: 0; background-position: 0 0; }
+
+.ui-partitioner-horizontal { height: 60px; margin: 6px 0px;}
+.ui-partitioner-horizontal .ui-partitioner-handle { top: -4%; margin-left: -2px; }
+.ui-partitioner-horizontal .ui-partitioner-range { top: 0; height: 100%; text-align: center;}
+.ui-partitioner-horizontal .ui-partitioner-range-min { left: 0; }
+.ui-partitioner-horizontal .ui-partitioner-range-max { right: 0; }
+
+.ui-partitioner-vertical { width: 60px; height: 400px; margin: 0px 6px;}
+.ui-partitioner-vertical .ui-partitioner-handle { left: -4%; margin-left: 0; margin-bottom: -2px; }
+.ui-partitioner-vertical .ui-partitioner-range { left: 0; text-align: center;}
