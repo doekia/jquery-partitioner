@@ -22,7 +22,7 @@ following URL:
 	https://github.com/zzzworm/jquery-partitioner
 usage:
 
-   $("#sysDiskPartGraph").partitioner({ 
+	 $("#diskPartGraph").partitioner({ 
 		max: 1024*1024*1024*200,
 		values:[20*1024*1024*1024,50*1024*1024*1024,100*1024*1024*1024],
 		colors:["blue","green","yellow","#ccc","gray"],
